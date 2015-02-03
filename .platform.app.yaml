@@ -13,7 +13,7 @@ web:
     # The public directory of the app, relative to its root.
     document_root: "/"
     # The front-controller script to send non-static requests to.
-    passthru: "/index.html"
+    passthru: "/index.php"
     whitelist:
     # CSS and Javascript.
     - \.css$
